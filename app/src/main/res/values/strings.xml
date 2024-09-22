@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Flow Mind</string>
     <string name="title_home">Home</string>
-
     <string name="title_timer">Timer</string>
     <string name="title_todo">Todo</string>
     <string name="task_name">Task Name</string>
     <string name="task_description">Task Description</string>
     <string name="add_task">Add Task</string>
+    <string name="clear_tasks">Clear Tasks</string>
 
 </resources>
