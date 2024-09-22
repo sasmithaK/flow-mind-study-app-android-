@@ -7,5 +7,10 @@
     <string name="task_description">Task Description</string>
     <string name="add_task">Add Task</string>
     <string name="clear_tasks">Clear Tasks</string>
+    <string name="set_time">Set Time</string>
+    <string name="enter_session_time_minutes">Enter Session Time (minutes)</string>
+    <string name="number_of_sessions">Number of Sessions</string>
+    <string name="_00_00">00:00</string>
+    <string name="start_timer">Start Timer</string>
 
 </resources>
