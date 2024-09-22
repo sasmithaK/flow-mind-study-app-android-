@@ -16,7 +16,7 @@ class NotificationReceiver : BroadcastReceiver() {
         // Get Notification Manager
         val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
-        // Create Notification Channel for Android O and above
+        // Create Notification Channel
         val channel = NotificationChannel(
             "flowmind_channel",
             "Task Reminder",
@@ -24,9 +24,9 @@ class NotificationReceiver : BroadcastReceiver() {
         )
         notificationManager.createNotificationChannel(channel)
 
-        // Build the notification
+        // notification
         val notificationBuilder = NotificationCompat.Builder(context, "flowmind_channel")
-            .setSmallIcon(R.drawable.ic_notifications_black_24dp) // Your notification icon
+            .setSmallIcon(R.drawable.ic_notifications_black_24dp) // notification icon
             .setContentTitle("Task Reminder")
             .setContentText("It's time to work on: $taskName")
             .setPriority(NotificationCompat.PRIORITY_HIGH)

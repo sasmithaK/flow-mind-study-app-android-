@@ -123,7 +123,7 @@ class TodoFragment : Fragment() {
             try {
                 alarmManager.setExact(AlarmManager.RTC_WAKEUP, task.timeInMillis, pendingIntent)
             } catch (e: SecurityException) {
-                // Handle the exception, e.g., show a message to the user
+                // Handle the exception
                 Toast.makeText(requireContext(), "Permission to schedule alarms is denied.", Toast.LENGTH_SHORT).show()
             }
         } else {
